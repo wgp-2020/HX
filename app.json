@@ -2,7 +2,6 @@
 	"env":{
 		"id":{
 			"description":"Vless与Vmess的用户id，同时也是Trojan的密码",
-			"value":"1eb6e917-774b-4a84-aff6-b058577c60a5",
 			"generator": "secret"
 		}
 	}
