@@ -1,9 +1,3 @@
-userId="1eb6e917-774b-4a84-aff6-b058577c60a5"
-
-if [[ $id ]]; then
-    userId="${id}"
-fi
-
 echo '{
     "log": {
         "loglevel": "warning"
@@ -15,7 +9,7 @@ echo '{
             "settings": {
                 "clients": [
                     {
-                        "id": "'$userId'",
+                        "id": "'$id'",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -45,7 +39,7 @@ echo '{
             "settings": {
                 "clients": [
                     {
-                        "id": "'$userId'"
+                        "id": "'$id'"
                     }
                 ],
                 "decryption": "none"
@@ -62,7 +56,7 @@ echo '{
             "settings": {
                 "clients": [
                     {
-                        "password": "'$userId'"
+                        "password": "'$id'"
                     }
                 ]
             },
@@ -81,7 +75,7 @@ echo '{
             "settings": {
                 "clients": [
                     {
-                        "id": "'$userId'"
+                        "id": "'$id'"
                     }
                 ]
             },
